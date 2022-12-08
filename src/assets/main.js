@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TO DO</title>
-</head>
-<body>
-    <h1> TO DO LIST</h1>
-    <div id="secret"></div>
-    <ul style="list-style:none"><div id="app"></div></ul>
-    <p></p>
-    <div id="add"> 
-        <form class="form">
-            <label for="task"></label>
-            <input type="text" class="input" maxlength="69" size="20" autocomplete="on" placeholder="¡Escribe una tarea!">
-            <input type="checkbox" style="scale: 1.8; position: relative; top:3px; right:15px;">
-            <input type="submit" value="¡Agregar!" style="position: relative; right:17px;">
-        </form>
-    </div>
-    <script>
+
         const todo = [
             { title: 'Burger', status: 'Complete'},
             { title: 'Pizza', status: 'Incomplete' }
@@ -61,6 +40,3 @@
             app.innerHTML = ``
             iterate()
          })
-    </script>
-</body>
-</html>

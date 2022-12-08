@@ -2,7 +2,7 @@
   "name": "todo",
   "description": "provisional to-do list demo <br> Someday, you will be able to download my TODO app from Play Store <br> Just remember my name: Vega de la Lyra. I swear!",
   "version": "0.0.1",
-  "main": "todoList.html",
+  "main": "index.js",
   "devDependencies": {
     "gh-pages": "^4.0.0"
   },
