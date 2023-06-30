@@ -40,3 +40,6 @@
             app.innerHTML = ``
             iterate()
          })
+
+console.log('HOLI FROM CODESPACES')
+document.querySelector('ul').onchange = () => console.log('CHANGE ON LI HEHE')
