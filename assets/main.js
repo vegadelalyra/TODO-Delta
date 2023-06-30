@@ -42,4 +42,12 @@
          })
 
 console.log('HOLI FROM CODESPACES')
-document.querySelector('ul').onchange = () => console.log('CHANGE ON LI HEHE')
+document.body.onclick = () => {
+    const checkers = document.querySelectorAll('.checker')
+    const allSettled = Array.from(checkers).every(checker => checker.checked)
+
+    if (!allSettled) return
+    
+    const message = "<h2> ¡ LO HAS LOGRADO, HAS CUMPLIDO TUS TAREAS ! :D</h2"
+    return document.getElementById('secret').innerHTML = message
+}
