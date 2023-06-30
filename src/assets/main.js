@@ -40,3 +40,6 @@
             app.innerHTML = ``
             iterate()
          })
+
+console.log('EDITING')
+document.querySelector('ul').onchange = () => console.log('SOMETHING CHANGED')
