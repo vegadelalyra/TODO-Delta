@@ -41,7 +41,7 @@
             iterate()
          })
 
-document.body.onclick = () => {
+document.querySelector('ul').onclick = () => {
     const checkers = document.querySelectorAll('.checker')
     const allSettled = Array.from(checkers).every(checker => checker.checked)
 
